@@ -1,0 +1,54 @@
+@charset 'utf-8';
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.hidden{
+    display: none;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    border: 0 none;
+}
+input{
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+#login_form{
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+    caret-color: #fff;
+    text-shadow: 2px 1px 10px #000;
+    margin-bottom: 5rem;
+}
+#login_form input{
+    border-bottom: 3px solid #fff;
+    padding: 1rem 0 .5rem 0;
+    font-size: 2rem;
+}
+#login_form p{
+    font-size: 3rem;
+}

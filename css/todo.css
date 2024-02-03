@@ -1,0 +1,25 @@
+.todo{
+    padding: 35px 40px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.todo > span{
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}
+#todo_form input{
+    color: #fff;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+#todo_list span{
+    margin-right: 8px;
+}

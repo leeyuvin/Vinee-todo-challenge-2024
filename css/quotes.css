@@ -1,0 +1,8 @@
+#quote{
+    position: absolute;
+    bottom: 3rem;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 1rem;
+}
